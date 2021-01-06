@@ -1,7 +1,12 @@
 body{
     font-family: 'Ubuntu', sans-serif;
 }
-.left{border-width: 100%;
+section{height: 500px; width: 100%;
+}
+
+
+
+.right{border-width: 100%;
     text-align: right; 
     width: 90%;
     }
@@ -18,7 +23,16 @@ body{
     color: white;
     background-color: peru;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 15px;
+    }
+
+    .cv{
+        text-decoration: none;
+        color: white;
+        background-color: peru;
+        border-radius: 5px;
+        padding: 5px 15px;
+
     }
 .half-width{
     width: 40%;
@@ -28,19 +42,60 @@ body{
 }
 
 .half-width img{
-    width: 95%;
+    width: 70%;
 }
 
 .background-about{
     background: honeydew;
 }
-.section{
-    height: 500px;
+
+
+.widths{
+    width: 23%;
+    height: 300px;
+    margin: 3%;
+    padding: 2%;
+    float: left;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 20px 40px gray;
+    text-align: left;
 }
-.cv{
+.widths img{
+    width: 100%;
+}
+
+.background{
+    background:honeydew;
+    text-align: center;
+}
+.bottom{
+    
+    background-image:url(images/Group_33094_1.png);
+    border-radius: 10px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    width: 70%;
+    height: 200px;
+    margin-left: 15%;
+    padding: 5px;
+}
+.leftbotton{
+        font-size: 40px;
+    color: lavenderblush;
+    margin-left: 20px;
+}
+.chat{
     text-decoration: none;
-    color: white;
-    background-color: peru;
-    border-radius: 5px;
-    padding: 5px 10px;
+background-color: salmon;
+border-radius: 10px;
+padding: 5px;
+
+margin-left: 300px;
+
 }
+footer{
+    text-align: center;
+    color: lightslategray;
+}
+.bold{text-decoration: black;}
