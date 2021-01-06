@@ -1,0 +1,46 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.left{border-width: 100%;
+    text-align: right; 
+    width: 90%;
+    }
+.bold{
+    font-weight: 700;
+}
+.link-button1{
+    text-decoration: none;
+    color: black;
+}
+
+.hire-me{
+    text-decoration: none;
+    color: white;
+    background-color: peru;
+    border-radius: 5px;
+    padding: 5px 10px;
+    }
+.half-width{
+    width: 40%;
+    margin: 3%;
+    padding: 2%;
+    float: left;
+}
+
+.half-width img{
+    width: 95%;
+}
+
+.background-about{
+    background: honeydew;
+}
+.section{
+    height: 500px;
+}
+.cv{
+    text-decoration: none;
+    color: white;
+    background-color: peru;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
